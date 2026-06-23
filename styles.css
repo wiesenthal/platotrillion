@@ -662,8 +662,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .prose strong { color: var(--ink); }
 
 /* About — values reuse .features; leadership */
-.team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
-.team-card { text-align: center; }
+.team-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
+.team-card { flex: 1 1 160px; max-width: 220px; text-align: center; }
 .avatar {
   width: 84px; height: 84px; margin: 0 auto 14px;
   border-radius: 50%;
@@ -744,7 +744,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .contact-card a.cmail:hover { text-decoration: underline; }
 
 @media (max-width: 900px) {
-  .team-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
   .pricing { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; }
   .int-grid { grid-template-columns: 1fr 1fr; }
   .contact-grid { grid-template-columns: 1fr; max-width: 420px; }
