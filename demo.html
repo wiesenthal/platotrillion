@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Request a demo — Plato Trillion</title>
+  <meta name="description" content="See Plato Trillion in your environment. Request a tailored demo of our visual monitoring infrastructure." />
+  <meta name="theme-color" content="#0b1220" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Plato Trillion home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="9" fill="url(#bg)"/>
+            <circle cx="16" cy="16" r="9" stroke="#fff" stroke-width="2" opacity="0.9"/>
+            <circle cx="16" cy="16" r="4.2" fill="#fff"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#3a63f0"/><stop offset="1" stop-color="#1f3bbf"/></linearGradient></defs>
+          </svg>
+        </span>
+        <span class="brand-name">Plato Trillion</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#platform">Platform</a>
+        <a href="index.html#solutions">Solutions</a>
+        <a href="index.html#security">Security</a>
+        <a href="index.html#company">Company</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="login.html">Sign in</a>
+        <a class="btn btn-primary" href="demo.html">Request a demo</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <a href="index.html#platform">Platform</a>
+      <a href="index.html#solutions">Solutions</a>
+      <a href="index.html#security">Security</a>
+      <a href="index.html#company">Company</a>
+      <a href="login.html">Sign in</a>
+      <a class="btn btn-primary btn-block" href="demo.html">Request a demo</a>
+    </div>
+  </header>
+
+  <main id="main" class="form-page">
+    <div class="container form-grid">
+      <!-- Left: value / what to expect -->
+      <div class="form-aside">
+        <span class="eyebrow" id="form-eyebrow">Request a demo</span>
+        <h1 id="form-title">See Plato Trillion in your environment.</h1>
+        <p class="form-lead" id="form-lead">
+          Tell us a little about your operation and a solutions specialist will put together a
+          walkthrough tailored to your sites — not a generic pitch.
+        </p>
+
+        <ul class="form-expect">
+          <li>
+            <span class="fe-ic" aria-hidden="true">✓</span>
+            <span><strong>A 30-minute walkthrough</strong> mapped to your environment and site types.</span>
+          </li>
+          <li>
+            <span class="fe-ic" aria-hidden="true">✓</span>
+            <span><strong>Live coverage examples</strong> from operations like yours.</span>
+          </li>
+          <li>
+            <span class="fe-ic" aria-hidden="true">✓</span>
+            <span><strong>Deployment &amp; pricing guidance</strong> for your number of locations.</span>
+          </li>
+        </ul>
+
+        <figure class="form-quote">
+          <blockquote>“We were live across our first sites within weeks. The visibility paid for itself almost immediately.”</blockquote>
+          <figcaption>Dana Reyes · VP of Operations, Atlas Distribution</figcaption>
+        </figure>
+      </div>
+
+      <!-- Right: form -->
+      <div class="form-card-wrap">
+        <form id="lead-form" class="form-card" novalidate>
+          <input type="hidden" name="intent" id="intent" value="demo" />
+
+          <div class="form-row">
+            <div class="field">
+              <label for="first">First name <span class="req">*</span></label>
+              <input type="text" id="first" name="first" autocomplete="given-name" required />
+              <span class="error-msg" data-for="first">Required.</span>
+            </div>
+            <div class="field">
+              <label for="last">Last name <span class="req">*</span></label>
+              <input type="text" id="last" name="last" autocomplete="family-name" required />
+              <span class="error-msg" data-for="last">Required.</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Work email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@company.com" required />
+            <span class="error-msg" data-for="email">Please enter a valid work email (no personal addresses).</span>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="company">Company <span class="req">*</span></label>
+              <input type="text" id="company" name="company" autocomplete="organization" required />
+              <span class="error-msg" data-for="company">Required.</span>
+            </div>
+            <div class="field">
+              <label for="role">Your role <span class="req">*</span></label>
+              <select id="role" name="role" required>
+                <option value="" disabled selected>Select…</option>
+                <option>Operations</option>
+                <option>Security / Loss Prevention</option>
+                <option>IT / Engineering</option>
+                <option>Facilities</option>
+                <option>Executive / Leadership</option>
+                <option>Other</option>
+              </select>
+              <span class="error-msg" data-for="role">Required.</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="size">Company size <span class="req">*</span></label>
+              <select id="size" name="size" required>
+                <option value="" disabled selected>Select…</option>
+                <option value="1-10">1–10 employees</option>
+                <option value="11-50">11–50 employees</option>
+                <option value="51-200">51–200 employees</option>
+                <option value="201-1000">201–1,000 employees</option>
+                <option value="1000+">1,000+ employees</option>
+              </select>
+              <span class="error-msg" data-for="size">Required.</span>
+            </div>
+            <div class="field">
+              <label for="sites">Sites to monitor <span class="req">*</span></label>
+              <select id="sites" name="sites" required>
+                <option value="" disabled selected>Select…</option>
+                <option value="1">1 location</option>
+                <option value="2-5">2–5 locations</option>
+                <option value="6-25">6–25 locations</option>
+                <option value="26-100">26–100 locations</option>
+                <option value="100+">100+ locations</option>
+              </select>
+              <span class="error-msg" data-for="sites">Required.</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="industry">Industry <span class="req">*</span></label>
+              <select id="industry" name="industry" required>
+                <option value="" disabled selected>Select…</option>
+                <option>Warehousing &amp; Fulfillment</option>
+                <option>Logistics &amp; Distribution</option>
+                <option>Events &amp; Conferences</option>
+                <option>Manufacturing &amp; Industrial</option>
+                <option>Retail</option>
+                <option>Other</option>
+              </select>
+              <span class="error-msg" data-for="industry">Required.</span>
+            </div>
+            <div class="field">
+              <label for="timeline">Timeline <span class="req">*</span></label>
+              <select id="timeline" name="timeline" required>
+                <option value="" disabled selected>Select…</option>
+                <option value="now">Immediately</option>
+                <option value="quarter">This quarter</option>
+                <option value="halfyear">1–2 quarters</option>
+                <option value="exploring">Just exploring</option>
+              </select>
+              <span class="error-msg" data-for="timeline">Required.</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="notes">What are you looking to solve? <span class="optional">(optional)</span></label>
+            <textarea id="notes" name="notes" rows="3" placeholder="A sentence or two about your operation and goals."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg" id="lead-submit">Request demo</button>
+          <p class="form-fine">By submitting, you agree to be contacted about Plato Trillion. We respect your privacy.</p>
+        </form>
+
+        <!-- Success / qualification result (hidden until submit) -->
+        <div class="form-result" id="form-result" hidden>
+          <div class="result-icon" aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4.5 4.5L19 7"/></svg>
+          </div>
+          <h2 id="result-title">Thanks — you're all set.</h2>
+          <p id="result-body">A solutions specialist will be in touch shortly.</p>
+          <a class="btn btn-secondary" href="index.html">Back to home</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="border-top:0;padding-top:0;">
+      <p>© <span class="year">2026</span> Plato Trillion, Inc. All rights reserved.</p>
+      <p class="footer-addr">1100 Harborview Ave, Suite 400, Seattle, WA 98101</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
