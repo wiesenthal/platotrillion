@@ -665,11 +665,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 .team-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
 .team-card { flex: 1 1 160px; max-width: 220px; text-align: center; }
 .avatar {
-  width: 84px; height: 84px; margin: 0 auto 14px;
+  width: 96px; height: 96px; margin: 0 auto 14px;
   border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-size: 1.4rem; color: #fff; letter-spacing: 0.02em;
-  background: linear-gradient(135deg, #3a63f0, #1f3bbf);
+  object-fit: cover;
+  display: block;
+  background: #eef2fc;
+  box-shadow: 0 6px 18px -8px rgba(11, 18, 32, 0.35);
 }
 .team-card h3 { font-size: 1.05rem; }
 .team-card span { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }
